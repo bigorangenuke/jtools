@@ -240,12 +240,12 @@ if __name__=='__main__':
 	#uu = np.dot(x_rotation(1.57),u)
 	#vv = np.dot(rotation(x=np.pi*0.25,y =np.pi*0.5,z = 0),u)
 
-	x = np.dot(x_rotation(np.pi*0.5),v)
-	y = np.dot(y_rotation(np.pi*0.5),v)
-	z = np.dot(z_rotation(np.pi*0.5),v)
+# 	x = np.dot(x_rotation(np.pi*0.5),v)
+# 	y = np.dot(y_rotation(np.pi*0.5),v)
+# 	z = np.dot(z_rotation(np.pi*0.5),v)
 	
-	plotVectors([v,x,y,z])
-
-	plt.show()
+# 	plotVectors([v,x,y,z])
+# 
+# 	plt.show()
 
 	
